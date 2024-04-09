@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Popins";
+}
+.topwrapper{
+    position:relative;
+    width:100%;
+}
+.topwrapper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.65); /* Change this to the desired color and opacity */
+  }
+  .topwrapper img{
+    width:100%;
+    height:600px;
+  }
+  
+  .textsmall {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index:1;
+  }
+  .textlogo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    z-index:1;
+  }
+   .icon1 {
+   position: absolute;
+    top: 10%;
+    left:84%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    z-index:1;
+  }
+  .texthelpline {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    z-index:1;
+  }
+  @media only screen and(max-width:1200){
+    .icon1{
+      top:52%;
+      left:67%;
+      transform:translate(-50%,-50%);
+    }
+    .texthelpline {
+      font-size: 16px;
+      top: 3%;
+      left: 90%;
+      transform: translate(-50%, -50%);
+  }
+
+  }
+  @media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .textsmall {
+        font-size: 16px;
+    }
+    .textlogo {
+        font-size: 40px;
+        top: 30%;
+    }
+    .icon1{
+      font-size: 20px;
+      top: 5%;
+      left: 73%;
+      transform: translate(-50%, -50%);
+    }
+    .texthelpline {
+      font-size: 16px;
+      top: 3%;
+      left: 100%;
+      transform: translate(-50%, -50%);
+  }
+   
+   
+  }
+
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for even smaller screens */
+    .textsmall {
+        font-size: 12px;
+    }
+    .textlogo {
+        font-size: 30px;
+        top: 20%;
+    }
+    .icon1{
+      font-size: 16px;
+      top: 3%;
+      left: 90%;
+      transform: translate(-50%, -59%);
+    }
+    .texthelpline {
+        font-size: 16px;
+        top: 3%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
+  .nationalpolicy{
+    padding-top:12px;
+
+  }
+  .image1 img{
+
+    padding:5px 5px 5px 5px;
+    height:400px;
+    width:400px;
+    border-radius:10%;
+  }
+  a{
+    cursor:pointer;
+  }
+  .imagespolicy{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+  }
+  .image1 p{
+    padding-right:20px;
+   margin-left:30px;
+    font-size:23px;
+  }
+  .image1{
+   
+    width:430px;
+    border-radius: 10%;
+    padding:10px 10px 10px 10px;
+  }
+  .image1:hover{
+   box-shadow:2px 2px 10px gray;
+  }
+  h1{
+    margin:20px;
+    text-align: center;
+  }
+  h1 img{
+    height:25px;
+  }
+  .tab12{
+    display:flex;
+    justify-content: space-between;
+    padding:30px 30px 30px 30px;
+
+  }
+  .tab12 i{
+    font-size: 20px;
+  }
+  .tab1{
+    height:90px;
+    width:390px;
+    font-size: 30px;
+    margin:90px 100px 10px;
+    border:2px solid rgb(232, 225, 225);
+    justify-content: space-between;
+    border-radius: 40px;
+
+  }
+  .tab1:hover{
+    box-shadow: 2px 2px 10px gray;
+  }
+  .tabs{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  a{
+    text-decoration: none;
+    color: black ;
+  }
